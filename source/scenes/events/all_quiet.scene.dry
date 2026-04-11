@@ -19,13 +19,13 @@ As an anti-war film, it is the target of major protest by <span style="color: #7
 - @everyone: In fact, everyone needs to learn the lessons of this film. Give free tickets to students and government employees.
 
 @ban
-on-arrival: old_middle_nsdap += 5; new_middle_nsdap += 3; workers_nsdap += 2; unemployed_nsdap += 2; sa_strength += 50; nationalism += 6; pro_republic -= 5
+on-arrival: old_middle_ddp += 5; new_middle_ddp += 3; workers_ddp += 2; unemployed_ddp += 2; sa_strength -= 50; nationalism -= 6; pro_republic += 5
 
 When we ban the film, the <span style="color: #7A3C00;">Nazis</span> immediately celebrate it as a major victory; they claim that even the red Marxists agree with them! It is a major boost to their morale.
 
 
 @allow
-on-arrival: nationalism += 3; old_middle_nsdap += 5; new_middle_nsdap += 3; workers_nsdap += 1; unemployed_nsdap += 1; sa_strength += 15; pro_republic -= 3; strife += 1
+on-arrival: nationalism -= 3; old_middle_ddp += 5; new_middle_ddp += 3; workers_ddp += 1; unemployed_ddp += 1; sa_strength -= 15; pro_republic += 3; strife -= 1
 
 While we allow the film, showings are marred by violence. Showings of the film eventually stop, and the <span style="color: #7A3C00;">Nazis</span> claim victory.
 
@@ -33,7 +33,7 @@ While we allow the film, showings are marred by violence. Showings of the film e
 @allow_protect
 choose-if: prussian_police_loyalty >= 0.65 and ((prussia_leader = "Braun" or prussia_leader = "Rosenfeld") or z_relation >= 65)
 unavailable-subtitle: [? if prussian_police_loyalty < 0.65:The police are not willing to protect the film. ?] [? if not prussia_leader = "Braun" and not prussia_leader = "Rosenfeld" and z_relation < 65: Our coalition partners restrain us from policing actions. ?]
-on-arrival: nationalism -= 4; pro_republic += 4*(1-dissent); strife += 1
+on-arrival: nationalism -= 4; pro_republic += 4*(1-dissent); strife -= 1
 
 Under the protection of the police, the people are allowed to watch the film in peace. <span style="color: #7A3C00;">Nazi</span> disturbances are kept to a minimum.
 
