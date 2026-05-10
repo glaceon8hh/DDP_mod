@@ -1,6 +1,6 @@
-title: Brüning's Race against Time
+title: Marx's Race against Time
 subtitle: Hindenburg's inner circle is conspiring against him...
-view-if: chancellor = "Brüning" and (year = 1932 and month >= 5) and president = "Hindenburg" and spd_in_government = 0 and (hindenburg_angry_bruning >= 200 or (hindenburg_angry_bruning >= 175 and hindenburg_sacked)) and not presidential_powers and not cvp_formed and not reparations_resolved
+view-if: chancellor = "Marx" and (year = 1928 and month >= 1) and president = "Hindenburg"
 on-arrival: bruning_joever = 1
 new-page: true
 tags: event
