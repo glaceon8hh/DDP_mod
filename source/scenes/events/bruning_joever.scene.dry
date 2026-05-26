@@ -1,6 +1,6 @@
-title: Marx's Race against Time
+title: Brunings's Race against Time
 subtitle: Hindenburg's inner circle is conspiring against him...
-view-if: chancellor = "Marx" and (year = 1928 and month >= 1) and president = "Hindenburg"
+view-if: chancellor = "Bruning" and (year = 1932 and month >= 5) and president = "Hindenburg and spd_in_government = 0 and (hindenburg_angry_bruning >= 200 or (hindenburg_angry_bruning >= 175 and hindenburg_sacked)) and not presidential_powers and not cvp_formed and not reparations_resolved"
 on-arrival: bruning_joever = 1
 new-page: true
 tags: event
@@ -17,11 +17,11 @@ However, General Kurt von Schleicher sees Marx as the biggest obstacle in his '<
 - @schleicher_time
 
 @schleicher_time
-title: Chancellor Marx is sacked!
+title: Chancellor Bruning is sacked!
 subtitle: President Hindenburg dismisses the government.
 go-to: successor_menu
 
-Former Chancellor Marx has been dismissed—despite commanding a parliamentary majority. It appears Schleicher has struck an unwritten deal with the <span style="color: #7A3C00;">**NSDAP**</span>, promising “fruitful cooperation” with a new right-wing cabinet that[? if sa_nationwide_ban:&nbsp;lifted the ban on the <span style="color: #7A3C00;">**SA**</span> and?] called for new Reichstag elections.
+Former Chancellor Bruning has been dismissed—despite commanding a parliamentary majority. It appears Schleicher has struck an unwritten deal with the <span style="color: #7A3C00;">**NSDAP**</span>, promising “fruitful cooperation” with a new right-wing cabinet that[? if sa_nationwide_ban:&nbsp;lifted the ban on the <span style="color: #7A3C00;">**SA**</span> and?] called for new Reichstag elections.
 
 It’s a shame that Schleicher would fall for [+ nsdap_leader +]’s lies. But the real question now is: who will succeed Marx?
 
